@@ -435,7 +435,7 @@ a{
     }
   }
  @media screen and (max-width: 600px){
-  .links  .a {
+  .links   {
     opacity: 0;
 }
     nav{
