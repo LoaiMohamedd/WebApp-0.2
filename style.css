@@ -17,6 +17,7 @@ nav{
     display: flex;
     justify-content: space-around;
     background-color:#07141D;
+    z-index: 999999999;
 }
 nav .logo {
     padding-top: 0.8%;
