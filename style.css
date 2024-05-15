@@ -464,7 +464,7 @@ a{
     
 }
    .s1{
-    height: 70vh;
+    height: 100vh;
 }
 .s1 button{
      --bs-btn-padding-y: .25rem;
@@ -473,7 +473,8 @@ a{
 }
 .sec3 .sec3cont1 img{
   
-  height: 80%;
+  height: 70%;
+  width:80% ;
 }
 .sec3 .sec3cont1 .sec3txt{
   font-size: smaller;
