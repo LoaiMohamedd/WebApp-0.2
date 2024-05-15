@@ -17,7 +17,7 @@ nav{
     display: flex;
     justify-content: space-around;
     background-color:#07141D;
-    z-index: 999999999;
+    z-index: 999;
 }
 nav .logo {
     padding-top: 0.8%;
@@ -155,7 +155,10 @@ a{
 }
 
 /* section 4 */
-
+.competions{
+  padding-top: 3.5%;
+  padding-bottom: 1.5%;
+}
 .competions .lol{
    padding: 5%;
 }
@@ -194,7 +197,10 @@ a{
   }
 
   /* Details */
-
+  .details{
+    padding-top: 4%;
+    padding-bottom: 2%;
+  }
   .details h1 , h3{
     text-align: center;
     padding: 1%;
@@ -226,7 +232,16 @@ a{
     cursor: pointer;
      color:teal;
   }
-  
+  @media screen and (max-width: 1200px){
+    .details{
+      padding-top: 9%;
+      padding-bottom: 4%;
+    }
+    .competions{
+      padding-top: 8%;
+      padding-bottom: 4%;
+    }
+  }
   /* statistics */
 
   .statistics{
@@ -273,7 +288,10 @@ a{
 .fst h3 {
     color: #000;
 }
-
+.squads{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 .container1{
     width: 95%;
     margin: auto;
@@ -458,6 +476,10 @@ a{
 }
 .sec3 .sec3cont1 .sec3txt{
   font-size: smaller;
+}
+.squads{
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
   } 
 
